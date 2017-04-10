@@ -25,7 +25,7 @@ MongoClient.connect(`mongodb://dbuser:dbpass@ds131320.mlab.com:31320/learn-mongo
 })
 
 app.get('/', (req,res) => {
-  res.send('you in the wrong neighborhood, muthafucka!')
+  res.send('You might want to go to /quotes for the good stuff!')
 })
 
 app.get('/quotes', (req, res) => {
