@@ -1,8 +1,10 @@
 # Learning Mongo and Node
-### A REST API built in Node with Mongo.
+### A RESTful API built in Node with Mongo.
 
 
-This is based on [Zellwk's Tutorial](https://zellwk.com/blog/crud-express-mongodb/).
+This is loosely based on [Zellwk's Tutorial](https://zellwk.com/blog/crud-express-mongodb/).
+
+The API has been tested using [Postman](https://www.getpostman.com/)
 
 
 ## API Features
