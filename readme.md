@@ -24,7 +24,7 @@ The API has been tested using [Postman](https://www.getpostman.com/)
   * `/quotes/:name/:quote` Posts a new quote to the DB
 
 * PUT
-  * `/quotes/:id/:new_name/:new_quote` Updates existing quote with given id with new name and new quote
+  * `/quotes/:id/:up_name/:up_quote` Updates existing quote with given id with new name and new quote
 
 * DELETE
   * `/quotes/:id` removes the quote from the DB
