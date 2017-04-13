@@ -102,3 +102,15 @@ app.delete('/quotes/:q_id', (req, res) => {
     console.log(result)
   })
 })
+
+app.put('/quotes/:q_id/:up_name/:up_quote', (req, res) => {
+  var quote_id = req.params.q_id
+  var update_name = req.params.up_name
+  var update_quote = req.params.up_quote
+
+  db.collection('quotes').update({'_id': ObjectId(req.params.q_id)}, {name: update_name, quote: update_quote}, {upsert: true}, (err, result) => {
+    if (err) return console.log(err)
+    res.json(result)
+    console.log(result)
+  })
+})

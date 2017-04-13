@@ -9,6 +9,7 @@ This is based on [Zellwk's Tutorial](https://zellwk.com/blog/crud-express-mongod
 * CRUD
   * Create
   * Read
+  * Update
   * Delete
 
 * GET
@@ -20,10 +21,12 @@ This is based on [Zellwk's Tutorial](https://zellwk.com/blog/crud-express-mongod
 * POST
   * `/quotes/:name/:quote` Posts a new quote to the DB
 
+* PUT
+  * `/quotes/:id/:new_name/:new_quote` Updates existing quote with given id with new name and new quote
+
 * DELETE
   * `/quotes/:id` removes the quote from the DB
 
 ## TODO
-* Add Update functionality
 * Make POST route less janky
 * Add auth?
