@@ -22,6 +22,7 @@ The API has been tested using [Postman](https://www.getpostman.com/)
 
 * POST
   * `/quotes/:name/:quote` Posts a new quote to the DB
+  * `/quotes` with a body hash { 'name': 'YOUR NAME HERE', 'quote': 'YOUR QUOTE HERE' }
 
 * PUT
   * `/quotes/:id/:up_name/:up_quote` Updates existing quote with given id with new name and new quote
@@ -30,5 +31,4 @@ The API has been tested using [Postman](https://www.getpostman.com/)
   * `/quotes/:id` removes the quote from the DB
 
 ## TODO
-* Make POST route less janky
 * Add auth?
